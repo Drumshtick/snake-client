@@ -25,6 +25,15 @@ const handleUserInput = (key) => {
   } else if (key === 'd') {
     console.log("--==[Move: right]==--");
     connection.write("Move: right");
+  } else if (key === 't') {
+    console.log("--==[TAUNT]==--");
+    connection.write("Say: aye wil rok ewe");
+  } else if (key === 'c') {
+    console.log("--==[COMPLIMENT]==--");
+    connection.write("Say: wowz gud moov");
+  } else if (key === 'l') {
+    console.log("--==[LOL]==--");
+    connection.write("Say: MUWAHAHA");
   }
 };  
 
